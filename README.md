@@ -1,14 +1,14 @@
-Description
+Description :
 Cette application de gestion d'utilisateurs est développée en Java avec Swing pour l'interface utilisateur. Elle permet aux utilisateurs de s'enregistrer, de se connecter, et d'accéder à un menu personnalisé. Les données des utilisateurs sont stockées dans une base de données MySQL.
 
-Fonctionnalités
+Fonctionnalités :
 Inscription : Permet à un utilisateur de créer un compte en fournissant ses informations (nom, nom d'utilisateur, mot de passe, téléphone, email, genre et image de profil).
 
 Connexion : Permet aux utilisateurs enregistrés de se connecter en utilisant leur nom d'utilisateur et mot de passe.
 
 Menu utilisateur : Affiche un message de bienvenue et l'image de profil de l'utilisateur connecté.
 
-Structure du projet
+Structure du projet :
 Classes principales :
 ConnectionDB :
 
@@ -32,7 +32,7 @@ Menu :
 
 Affiche un message de bienvenue et une image de profil pour l'utilisateur connecté.
 
-Technologies utilisées
+Technologies utilisées :
 Java : Langage de programmation principal.
 
 Swing : Utilisé pour créer l'interface utilisateur.
@@ -41,7 +41,7 @@ MySQL : Base de données pour stocker les informations des utilisateurs.
 
 JDBC : Permet la connexion entre Java et MySQL.
 
-Configuration requise
+Configuration requise :
 JDK 8 ou supérieur.
 
 Serveur MySQL avec une base de données nommée users et une table users contenant les colonnes suivantes :
@@ -60,7 +60,7 @@ gender : Genre (VARCHAR).
 
 image : Image de profil (BLOB).
 
-Installation
+Installation :
 Clonez ce projet : git clone https://github.com/Mihary09/GestionUtilisateurs
 
 bash
