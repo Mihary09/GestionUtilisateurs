@@ -63,8 +63,6 @@ image : Image de profil (BLOB).
 Installation :
 Clonez ce projet : git clone https://github.com/Mihary09/GestionUtilisateurs
 
-bash
-git clone https://github.com/votre-repo/java-user-management-app.git
 Configurez la base de données MySQL et mettez à jour l'URL, le nom d'utilisateur et le mot de passe dans la classe ConnectionDB.
 
 Compilez et exécutez les fichiers Java :
